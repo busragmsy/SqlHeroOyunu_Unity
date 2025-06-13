@@ -3,6 +3,8 @@
 *SQL Hero*, SQL öğrenimini sıkıcılıktan kurtarıp oyunlaştırılmış bir deneyime dönüştüren interaktif bir eğitim oyunudur.  
 Unity ve Visual Studio kullanılarak geliştirilen bu oyun, aynı zamanda yapay zeka destekli karakter tasarımı ve dinamik JSON veri yapısıyla donatılmıştır.
 
+Video Linki: https://youtu.be/12nn-Oz7-r0
+
 ## 🎯 Amaç
 
 - SQL’i teoriden pratiğe geçiren, sıkıcılıktan uzak ve eğlenceli bir şekilde öğretmek  
