@@ -1,0 +1,1362 @@
+{
+  "levels": [
+    {
+      "levelId": 1,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "Veri eklemek için hangisi kullanılır?",
+          "options": [
+            "INSERT INTO",
+            "ADD DATA",
+            "NEW ROW",
+            "UPDATE"
+          ],
+          "answer": [
+            "INSERT INTO"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT * _____ Musteriler;",
+          "options": [
+            "UP",
+            "INSERT",
+            "FROM",
+            "WHERE"
+          ],
+          "answer": [
+            "FROM"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "TABLE",
+            "OldRecords",
+            "DROP"
+          ],
+          "answer": [
+            "DROP",
+            "TABLE",
+            "OldRecords"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "SQL, HTML'in bir parçasıdır.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "Aşağıdakilerden hangisi SQL komutudur?",
+          "options": [
+            "GET",
+            "FETCH",
+            "SELECT",
+            "CHOOSE"
+          ],
+          "answer": [
+            "SELECT"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Siparisler _____ Adet = 1;",
+          "options": [
+            "'GROUP BY'",
+            "DELETE",
+            "UP",
+            "WHERE"
+          ],
+          "answer": [
+            "WHERE"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "orderWords",
+          "orderWords": [
+            "FROM",
+            "SELECT",
+            "Customers",
+            "*"
+          ],
+          "answer": [
+            "SELECT",
+            "*",
+            "FROM",
+            "Customers"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "trueFalse",
+          "question": "DELETE komutu tabloyu tamamen siler.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "multipleChoice",
+          "question": "Bir koşula göre kayıt silmek için hangisi kullanılır?",
+          "options": [
+            "DELETE FROM ... WHERE ...",
+            "REMOVE",
+            "DROP",
+            "CUT"
+          ],
+          "answer": [
+            "DELETE FROM ... WHERE ..."
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "multipleChoice",
+          "question": "DELETE FROM Customers WHERE ___;",
+          "options": [
+            "Age",
+            "City",
+            "CustomerID = 1",
+            "'Paris'"
+          ],
+          "answer": [
+            "CustomerID = 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 2,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "SELECT UrunAdi, Fiyat FROM Urunler WHERE Fiyat ______ 5000 ___ 15000;",
+          "options": [
+            "AND, BETWEEN",
+            "BETWEEN, AND",
+            "LIKE, AND",
+            "&&, LIKE"
+          ],
+          "answer": [
+            "BETWEEN, AND"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "INSERT INTO Customers (Name, City) VALUES (___, ___);",
+          "options": [
+            "Products, Customers",
+            "'Istanbul', 'Ayşe'",
+            "Address, Email",
+            "'Ali', 'Ankara'"
+          ],
+          "answer": [
+            "'Ali', 'Ankara'"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "Customers",
+            "FROM",
+            "DISTINCT",
+            "SELECT",
+            "City"
+          ],
+          "answer": [
+            "SELECT",
+            "DISTINCT",
+            "City",
+            "FROM",
+            "Customers"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "SELECT COUNT(*) FROM Siparisler; ifadesi, siparişlerin toplam adedini verir.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "Hangi komut veri günceller?",
+          "options": [
+            "UPDATE",
+            "SELECT",
+            "DELETE",
+            "INSERT"
+          ],
+          "answer": [
+            "UPDATE"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Siparisler _____ SiparisTarihi DESC;",
+          "options": [
+            "DISTINCT",
+            "ORDER BY",
+            "ORDER",
+            "SUM"
+          ],
+          "answer": [
+            "ORDER BY"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "orderWords",
+          "orderWords": [
+            "UPDATE",
+            "Salary=5000",
+            "Employees",
+            "SET",
+            "ID=1",
+            "WHERE"
+          ],
+          "answer": [
+            "UPDATE",
+            "Employees",
+            "SET",
+            "Salary=5000",
+            "WHERE",
+            "ID=1"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "trueFalse",
+          "question": "LIKE operatörü yalnızca sayısal verilerle kullanılabilir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "multipleChoice",
+          "question": "Verileri sıralamak için hangisi doğrudur?",
+          "options": [
+            "SORT",
+            "ORDER BY",
+            "RANK BY",
+            "SEQUENCE"
+          ],
+          "answer": [
+            "ORDER BY"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "multipleChoice",
+          "question": "SELECT ________, COUNT(*) AS SiparisSayisi FROM Siparisler GROUP BY ________;",
+          "options": [
+            "MusteriID, MusteriID",
+            "UrunID, Adet",
+            "SiparisID, UrunID",
+            "MusteriID, UrunID"
+          ],
+          "answer": [
+            "MusteriID, MusteriID"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 3,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "SELECT AVG(Fiyat) FROM Urunler; komutu ne işe yarar?",
+          "options": [
+            "En yüksek fiyatı getirir",
+            "Fiyatları sıralar",
+            "Ortalama fiyatı hesaplar",
+            "Tüm fiyatları toplar"
+          ],
+          "answer": [
+            "Ortalama fiyatı hesaplar"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT COUNT(*) FROM _______; komutunda boşluğu doldurun:",
+          "options": [
+            "Urunler",
+            "SELECT",
+            "WHERE",
+            "Adet"
+          ],
+          "answer": [
+            "Urunler"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "GROUP BY",
+            "MusteriID",
+            "FROM Siparisler",
+            "SELECT MusteriID, COUNT(*)"
+          ],
+          "answer": [
+            "SELECT MusteriID, COUNT(*)",
+            "FROM Siparisler",
+            "GROUP BY",
+            "MusteriID"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "GROUP BY ifadesi yalnızca bir sütunla kullanılabilir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "SELECT MAX(Fiyat) FROM Urunler; komutu aşağıdakilerden hangisini yapar?",
+          "options": [
+            "Minimum fiyatı getirir",
+            "Fiyatları sıralar",
+            "Fiyatları siler",
+            "En yüksek fiyatı getirir"
+          ],
+          "answer": [
+            "En yüksek fiyatı getirir"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "multipleChoice",
+          "question": "SELECT UrunID, COUNT(*) FROM Siparisler GROUP BY UrunID HAVING COUNT(*) > ___;",
+          "options": [
+            "ALL",
+            "AVG",
+            "2",
+            "MAX"
+          ],
+          "answer": [
+            "2"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "orderWords",
+          "orderWords": [
+            "FROM Urunler",
+            "SELECT MAX(Fiyat)",
+            "WHERE Stok > 0"
+          ],
+          "answer": [
+            "SELECT MAX(Fiyat)",
+            "FROM Urunler",
+            "WHERE Stok > 0"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "trueFalse",
+          "question": "AVG(), MAX(), MIN() gibi fonksiyonlar yalnızca GROUP BY ile kullanılabilir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "multipleChoice",
+          "question": "GROUP BY ve HAVING birlikte kullanıldığında ne yapılabilir?",
+          "options": [
+            "Gruplanan verilere filtre uygulanır",
+            "Veri tabanı silinir",
+            "Yeni sütun eklenir",
+            "Sadece bir kayıt gösterilir"
+          ],
+          "answer": [
+            "Gruplanan verilere filtre uygulanır"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "multipleChoice",
+          "question": "SELECT MIN(______) FROM Siparisler;",
+          "options": [
+            "Email",
+            "Fiyat",
+            "Adet",
+            "COUNT"
+          ],
+          "answer": [
+            "Adet"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 4,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "Aşağıdakilerden hangisi INNER JOIN kullanımına örnektir?",
+          "options": [
+            "SELECT * FROM A RIGHT JOIN B ON A.id = B.id;",
+            "SELECT * FROM A INNER JOIN B ON A.id = B.id;",
+            "SELECT * FROM A FULL JOIN B;",
+            "SELECT * FROM A JOIN B USING(id);"
+          ],
+          "answer": [
+            "SELECT * FROM A INNER JOIN B ON A.id = B.id;"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Customers LEFT JOIN Orders ON Customers.CustomerID = Orders._____ ;",
+          "options": [
+            "Name",
+            "ProductID",
+            "CustomerID",
+            "City"
+          ],
+          "answer": [
+            "CustomerID"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "JOIN",
+            "Orders",
+            "ON Customers.ID = Orders.CustomerID",
+            "SELECT Customers.Name",
+            "FROM Customers"
+          ],
+          "answer": [
+            "SELECT Customers.Name",
+            "FROM Customers",
+            "JOIN",
+            "Orders",
+            "ON Customers.ID = Orders.CustomerID"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "LEFT JOIN ifadesi, sadece eşleşen kayıtları getirir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "RIGHT JOIN ile ne elde edilir?",
+          "options": [
+            "Sadece sol tablodaki kayıtlar",
+            "Her iki tablodaki eşleşmeyen veriler",
+            "Sağ tablodaki tüm kayıtlar ve eşleşen sol taraf",
+            "Tabloların kesişimi"
+          ],
+          "answer": [
+            "Sağ tablodaki tüm kayıtlar ve eşleşen sol taraf"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "multipleChoice",
+          "question": "Aşağıdaki boşluğu doldurun: SELECT M.Ad, U.UrunAdi FROM Siparisler S INNER JOIN Musteriler M ON S.MusteriID = M.MusteriID INNER JOIN ______ U ON S.UrunID = U.UrunID;",
+          "options": [
+            "Siparisler",
+            "Urunler",
+            "Musteriler",
+            "Kategoriler"
+          ],
+          "answer": [
+            "Urunler"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "orderWords",
+          "orderWords": [
+            "JOIN",
+            "ON Orders.ProductID = Products.ProductID",
+            "Orders",
+            "Products",
+            "SELECT *",
+            "FROM"
+          ],
+          "answer": [
+            "SELECT *",
+            "FROM",
+            "Orders",
+            "JOIN",
+            "Products",
+            "ON Orders.ProductID = Products.ProductID"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "trueFalse",
+          "question": "RIGHT JOIN, NULL değerler içerebilir.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "multipleChoice",
+          "question": "Hangi JOIN türü, eşleşmeyen sağ tablo kayıtlarını da getirir?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "CROSS JOIN"
+          ],
+          "answer": [
+            "RIGHT JOIN"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Students ______ Courses ON Students.CourseID = Courses.ID;",
+          "options": [
+            "JOIN",
+            "LEFT JOIN",
+            "INNER JOIN",
+            "RIGHT"
+          ],
+          "answer": [
+            "INNER JOIN"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 5,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "Aşağıdaki ifadelerden hangisi alt sorgu (subquery) içerir?",
+          "options": [
+            "SELECT * FROM Urunler;",
+            "SELECT * FROM Siparisler WHERE Fiyat > 1000;",
+            "SELECT * FROM Urunler WHERE Fiyat = (SELECT MAX(Fiyat) FROM Urunler);",
+            "DELETE FROM Musteriler WHERE Ad = 'Ali';"
+          ],
+          "answer": [
+            "SELECT * FROM Urunler WHERE Fiyat = (SELECT MAX(Fiyat) FROM Urunler);"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Siparisler WHERE MusteriID _____ (SELECT MusteriID FROM Musteriler WHERE City = 'Istanbul');",
+          "options": [
+            "IN",
+            "EXISTS",
+            "LIKE",
+            "="
+          ],
+          "answer": [
+            "IN"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "FROM Students",
+            "WHERE Age >",
+            "(SELECT AVG(Age) FROM Students)",
+            "SELECT *"
+          ],
+          "answer": [
+            "SELECT *",
+            "FROM Students",
+            "WHERE Age >",
+            "(SELECT AVG(Age) FROM Students)"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "Alt sorgular sadece WHERE koşullarında kullanılabilir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "Aşağıdakilerden hangisi EXISTS kullanımına örnektir?",
+          "options": [
+            "SELECT * FROM Orders WHERE OrderID IN Products;",
+            "SELECT * FROM Customers WHERE EXISTS (SELECT * FROM Orders WHERE Customers.ID = Orders.CustomerID);",
+            "SELECT * FROM Products WHERE Price = MAX(Price);",
+            "SELECT * FROM Orders WHERE ProductID = Products.ProductID;"
+          ],
+          "answer": [
+            "SELECT * FROM Customers WHERE EXISTS (SELECT * FROM Orders WHERE Customers.ID = Orders.CustomerID);"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Urunler WHERE Fiyat > ALL (SELECT Fiyat FROM Urunler WHERE Stok < 5); komutu ne anlama gelir?",
+          "options": [
+            "Tüm ürünleri listeler",
+            "Stok 5'ten küçük olan tüm ürünleri getirir",
+            "Stok 5'ten az olanların tamamından daha pahalı ürünleri getirir",
+            "En düşük fiyatlı ürünü getirir"
+          ],
+          "answer": [
+            "Stok 5'ten az olanların tamamından daha pahalı ürünleri getirir"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "orderWords",
+          "orderWords": [
+            "SELECT Name",
+            "FROM Employees",
+            "WHERE Salary >",
+            "(SELECT AVG(Salary) FROM Employees)"
+          ],
+          "answer": [
+            "SELECT Name",
+            "FROM Employees",
+            "WHERE Salary >",
+            "(SELECT AVG(Salary) FROM Employees)"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "trueFalse",
+          "question": "IN ve EXISTS ifadeleri farklı sonuçlar verebilir.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "multipleChoice",
+          "question": "Alt sorgu sonuçlarının birden fazla değer döndürmesini engelleyen ifade nedir?",
+          "options": [
+            "IN",
+            "=",
+            "EXISTS",
+            "ALL"
+          ],
+          "answer": [
+            "="
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "multipleChoice",
+          "question": "SELECT Name FROM Customers WHERE NOT _____ (SELECT * FROM Orders WHERE Customers.ID = Orders.CustomerID);",
+          "options": [
+            "IN",
+            "EXISTS",
+            "ALL",
+            "COUNT"
+          ],
+          "answer": [
+            "EXISTS"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 6,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "SELECT M.Ad, COUNT(S.SiparisID) FROM Musteriler M JOIN Siparisler S ON M.MusteriID = S.MusteriID GROUP BY M.Ad HAVING COUNT(S.SiparisID) > 3; ne yapar?",
+          "options": [
+            "3'ten fazla ürünü olan ürünleri listeler",
+            "Sipariş sayısı 3'ten fazla olan müşterileri listeler",
+            "Tüm müşterileri listeler",
+            "Sipariş tarihi 3 olanları gösterir"
+          ],
+          "answer": [
+            "Sipariş sayısı 3'ten fazla olan müşterileri listeler"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT D.DersAdi, COUNT(*) FROM Dersler D JOIN Notlar N ON D.DersID = N.DersID GROUP BY D.DersAdi _____ COUNT(*) > 5;",
+          "options": [
+            "HAVING",
+            "WHERE",
+            "ORDER BY",
+            "LIMIT"
+          ],
+          "answer": [
+            "HAVING"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "GROUP BY D.BolumAd",
+            "JOIN Bolumler D",
+            "SELECT D.BolumAd, COUNT(*)",
+            "FROM Hocalar H ON H.BolumID = D.BolumID"
+          ],
+          "answer": [
+            "SELECT D.BolumAd, COUNT(*)",
+            "FROM Hocalar H",
+            "JOIN Bolumler D ON H.BolumID = D.BolumID",
+            "GROUP BY D.BolumAd"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "GROUP BY ile filtreleme yapmak için WHERE kullanılır.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "JOIN ve alt sorgu birlikte kullanılırsa aşağıdakilerden hangisi yapılabilir?",
+          "options": [
+            "Tek tabloda işlem yapılır",
+            "Sadece grup işlemi yapılır",
+            "İlişkisel veriler üzerinde filtreli analiz yapılır",
+            "Veri güncellenir"
+          ],
+          "answer": [
+            "İlişkisel veriler üzerinde filtreli analiz yapılır"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Ogrenciler O WHERE O.ogrenciID IN (SELECT ogrenciID FROM Notlar WHERE Notu > 70); ne yapar?",
+          "options": [
+            "Notu 70'ten küçük olan öğrencileri getirir",
+            "Sadece 1 öğrenci getirir",
+            "Notu 70'in üstünde olan öğrencileri getirir",
+            "Bölümü 'YBS' olanları getirir"
+          ],
+          "answer": [
+            "Notu 70'in üstünde olan öğrencileri getirir"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "orderWords",
+          "orderWords": [
+            "ON O.ogrenciID = N.ogrenciID",
+            "FROM Ogrenciler O",
+            "JOIN Notlar N",
+            "SELECT O.ogrenciIsim, AVG(N.Notu)",
+            "GROUP BY O.ogrenciIsim"
+          ],
+          "answer": [
+            "SELECT O.ogrenciIsim, AVG(N.Notu)",
+            "FROM Ogrenciler O",
+            "JOIN Notlar N",
+            "ON O.ogrenciID = N.ogrenciID",
+            "GROUP BY O.ogrenciIsim"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "trueFalse",
+          "question": "HAVING ifadesi gruplama sonrasında filtreleme yapmak için kullanılır.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "multipleChoice",
+          "question": "JOIN kullanılan bir sorguda, SELECT satırında iki farklı tablodan sütun almak mümkün müdür?",
+          "options": [
+            "Hayır, sadece bir tablo desteklenir",
+            "Evet, ama sadece aynı isimli sütunlar alınabilir",
+            "Evet, tablo alias'ları ile birlikte mümkündür",
+            "Hayır, JOIN ile SELECT birlikte çalışmaz"
+          ],
+          "answer": [
+            "Evet, tablo alias'ları ile birlikte mümkündür"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "multipleChoice",
+          "question": "SELECT BolumAd, COUNT(*) FROM Bolumler B JOIN Ogrenciler O ON B.bolumID = O.bolumID GROUP BY _____;",
+          "options": [
+            "BolumID",
+            "OgrenciID",
+            "BolumAd",
+            "OgrenciNo"
+          ],
+          "answer": [
+            "BolumAd"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 7,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "Aşağıdakilerden hangisi bir VIEW (görünüm) oluşturur?",
+          "options": [
+            "SELECT VIEW Customers;",
+            "CREATE VIEW CustomerList AS SELECT Ad, Email FROM Musteriler;",
+            "NEW VIEW Customers FROM Musteriler;",
+            "VIEW Customers FROM Musteriler;"
+          ],
+          "answer": [
+            "CREATE VIEW CustomerList AS SELECT Ad, Email FROM Musteriler;"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT Ad AS _____ FROM Musteriler;",
+          "options": [
+            "ad",
+            "isim",
+            "MüşteriAdı",
+            "takma"
+          ],
+          "answer": [
+            "MüşteriAdı"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "SELECT",
+            "FROM Users;",
+            "AS FullName",
+            "CONCAT(Ad, ' ', Soyad)"
+          ],
+          "answer": [
+            "SELECT",
+            "CONCAT(Ad, ' ', Soyad)",
+            "AS FullName",
+            "FROM Users;"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "ALIAS ifadesi geçici olarak bir sütuna takma ad vermek için kullanılır.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "SELECT NOW(); fonksiyonu ne döndürür?",
+          "options": [
+            "Kullanıcının adı",
+            "Geçerli saat ve tarihi",
+            "NULL",
+            "Bir tablo oluşturur"
+          ],
+          "answer": [
+            "Geçerli saat ve tarihi"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "trueFalse",
+          "question": "VIEW'ler veritabanında fiziksel olarak veri depolar.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "multipleChoice",
+          "question": "SELECT YEAR(SiparisTarihi) FROM Siparisler; sorgusu _____ değerini döndürür.",
+          "options": [
+            "günün adı",
+            "ayın numarası",
+            "yıl",
+            "saat"
+          ],
+          "answer": [
+            "yıl"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "multipleChoice",
+          "question": "CONCAT fonksiyonu hangi veri türüyle çalışır?",
+          "options": [
+            "Tarih",
+            "Metin (string)",
+            "Sayı (int)",
+            "Boolean"
+          ],
+          "answer": [
+            "Metin (string)"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "orderWords",
+          "orderWords": [
+            "SELECT",
+            "FROM Siparisler;",
+            "DATE_FORMAT(SiparisTarihi, '%Y-%m')"
+          ],
+          "answer": [
+            "SELECT",
+            "DATE_FORMAT(SiparisTarihi, '%Y-%m')",
+            "FROM Siparisler;"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "trueFalse",
+          "question": "VIEW silmek için DROP VIEW komutu kullanılır.",
+          "answer": [
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 8,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "Aşağıdakilerden hangisi doğru bir CASE yapısıdır?",
+          "options": [
+            "IF Salary > 5000 THEN 'High';",
+            "CASE WHEN Salary > 5000 THEN 'High' ELSE 'Low' END",
+            "IF (Salary > 5000) { 'High' }",
+            "SELECT CASE Salary > 5000 THEN 'High';"
+          ],
+          "answer": [
+            "CASE WHEN Salary > 5000 THEN 'High' ELSE 'Low' END"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT Ad, CASE WHEN Fiyat > 10000 THEN 'Pahalı' ELSE 'Ucuz' _____ FROM Urunler;",
+          "options": [
+            "END",
+            "FINISH",
+            "STOP",
+            "WRAP"
+          ],
+          "answer": [
+            "END"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "CASE",
+            "THEN 'Yüksek'",
+            "WHEN Notu > 70",
+            "ELSE 'Düşük'",
+            "END"
+          ],
+          "answer": [
+            "CASE",
+            "WHEN Notu > 70",
+            "THEN 'Yüksek'",
+            "ELSE 'Düşük'",
+            "END"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "CASE yapısı sadece SELECT komutları içinde kullanılabilir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "IF(Salary > 5000, 'Yüksek', 'Düşük') yapısı hangi veri tabanı sisteminde kullanılır?",
+          "options": [
+            "Oracle",
+            "PostgreSQL",
+            "MySQL",
+            "SQL Server"
+          ],
+          "answer": [
+            "MySQL"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "trueFalse",
+          "question": "CASE yapısı, aynı sorguda birden fazla kez kullanılabilir.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "multipleChoice",
+          "question": "SELECT Name, CASE WHEN Gender = 'F' THEN 'Kadın' ELSE 'Erkek' END AS _____ FROM Users;",
+          "options": [
+            "Cinsiyet",
+            "Rol",
+            "AdSoyad",
+            "Durum"
+          ],
+          "answer": [
+            "Cinsiyet"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "multipleChoice",
+          "question": "CASE yapısı hangi SQL yapısıyla doğrudan karıştırılmamalıdır?",
+          "options": [
+            "JOIN",
+            "GROUP BY",
+            "UPDATE",
+            "ORDER BY"
+          ],
+          "answer": [
+            "JOIN"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "orderWords",
+          "orderWords": [
+            "CASE",
+            "WHEN Adet > 10 THEN 'Toplu'",
+            "ELSE 'Bireysel'",
+            "END"
+          ],
+          "answer": [
+            "CASE",
+            "WHEN Adet > 10 THEN 'Toplu'",
+            "ELSE 'Bireysel'",
+            "END"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "trueFalse",
+          "question": "CASE yapısında ELSE kısmı zorunludur.",
+          "answer": [
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 9,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "Aşağıdakilerden hangisi, birden fazla tablonun birleştirilmesiyle kategoriye göre sipariş sayısını listeler?",
+          "options": [
+            "SELECT * FROM Siparisler;",
+            "SELECT COUNT(*) FROM Siparisler JOIN Kategoriler;",
+            "SELECT K.KategoriAdi, COUNT(S.SiparisID) FROM Siparisler S JOIN Urunler U ON S.UrunID = U.UrunID JOIN Kategoriler K ON U.KategoriID = K.KategoriID GROUP BY K.KategoriAdi;",
+            "SELECT FROM GROUP Siparisler BY Kategori;"
+          ],
+          "answer": [
+            "SELECT K.KategoriAdi, COUNT(S.SiparisID) FROM Siparisler S JOIN Urunler U ON S.UrunID = U.UrunID JOIN Kategoriler K ON U.KategoriID = K.KategoriID GROUP BY K.KategoriAdi;"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT Ad, COUNT(*) FROM Musteriler M JOIN Siparisler S ON M.MusteriID = S.MusteriID GROUP BY Ad _____ COUNT(*) > 3;",
+          "options": [
+            "WHERE",
+            "IF",
+            "HAVING",
+            "WHEN"
+          ],
+          "answer": [
+            "HAVING"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "FROM Siparisler S",
+            "JOIN Musteriler M ON S.MusteriID = M.MusteriID",
+            "GROUP BY M.Ad",
+            "SELECT M.Ad, COUNT(*)"
+          ],
+          "answer": [
+            "SELECT M.Ad, COUNT(*)",
+            "FROM Siparisler S",
+            "JOIN Musteriler M ON S.MusteriID = M.MusteriID",
+            "GROUP BY M.Ad"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "Bir sorguda hem JOIN hem de alt sorgu birlikte kullanılabilir.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "SELECT COUNT(*) FROM Siparisler WHERE UrunID IN (SELECT UrunID FROM Urunler WHERE Stok = 0); ne işe yarar?",
+          "options": [
+            "Stokta olmayan ürünlerin toplam sipariş sayısını verir.",
+            "Tüm siparişleri listeler.",
+            "Sadece bir müşterinin siparişini getirir.",
+            "Stok bilgisi olmayan ürünleri siler."
+          ],
+          "answer": [
+            "Stokta olmayan ürünlerin toplam sipariş sayısını verir."
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "trueFalse",
+          "question": "CASE yapısı GROUP BY ile birlikte kullanılabilir.",
+          "answer": [
+            "True"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "multipleChoice",
+          "question": "SELECT UrunAdi, CASE WHEN Fiyat > 10000 THEN 'Pahalı' ELSE 'Uygun' END AS _____ FROM Urunler;",
+          "options": [
+            "Etiket",
+            "FiyatDurumu",
+            "Kategori",
+            "Durum"
+          ],
+          "answer": [
+            "FiyatDurumu"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "multipleChoice",
+          "question": "Alt sorgu kullanarak en çok sipariş verilen ürünün adını almak için hangi ifade doğrudur?",
+          "options": [
+            "SELECT UrunAdi FROM Urunler ORDER BY Adet DESC;",
+            "SELECT UrunAdi FROM Urunler WHERE UrunID = (SELECT UrunID FROM Siparisler GROUP BY UrunID ORDER BY COUNT(*) DESC LIMIT 1);",
+            "SELECT MAX(UrunAdi) FROM Urunler;",
+            "SELECT UrunAdi FROM Siparisler;"
+          ],
+          "answer": [
+            "SELECT UrunAdi FROM Urunler WHERE UrunID = (SELECT UrunID FROM Siparisler GROUP BY UrunID ORDER BY COUNT(*) DESC LIMIT 1);"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "orderWords",
+          "orderWords": [
+            "THEN 'Yüksek'",
+            "ELSE 'Düşük'",
+            "WHEN COUNT(*) > 5",
+            "CASE",
+            "END AS SiparisDurumu"
+          ],
+          "answer": [
+            "CASE",
+            "WHEN COUNT(*) > 5",
+            "THEN 'Yüksek'",
+            "ELSE 'Düşük'",
+            "END AS SiparisDurumu"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "trueFalse",
+          "question": "ORDER BY ifadesi, GROUP BY'dan sonra kullanılabilir.",
+          "answer": [
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 10,
+      "questions": [
+        {
+          "questionNo": 1,
+          "type": "multipleChoice",
+          "question": "Aşağıdaki sorgu ne yapar? SELECT Ad FROM Musteriler WHERE MusteriID NOT IN (SELECT DISTINCT MusteriID FROM Siparisler);",
+          "options": [
+            "Tüm siparişleri listeler",
+            "Sipariş vermeyen müşterileri listeler",
+            "En çok sipariş veren müşteriyi getirir",
+            "Sipariş sayısını verir"
+          ],
+          "answer": [
+            "Sipariş vermeyen müşterileri listeler"
+          ]
+        },
+        {
+          "questionNo": 2,
+          "type": "multipleChoice",
+          "question": "SELECT UrunAdi FROM Urunler WHERE Fiyat = (SELECT _____(Fiyat) FROM Urunler);",
+          "options": [
+            "MAX",
+            "COUNT",
+            "AVG",
+            "SUM"
+          ],
+          "answer": [
+            "MAX"
+          ]
+        },
+        {
+          "questionNo": 3,
+          "type": "orderWords",
+          "orderWords": [
+            "JOIN Siparisler S ON U.UrunID = S.UrunID",
+            "FROM Urunler U",
+            "GROUP BY U.UrunAdi",
+            "SELECT U.UrunAdi, COUNT(S.SiparisID)"
+          ],
+          "answer": [
+            "SELECT U.UrunAdi, COUNT(S.SiparisID)",
+            "FROM Urunler U",
+            "JOIN Siparisler S ON U.UrunID = S.UrunID",
+            "GROUP BY U.UrunAdi"
+          ]
+        },
+        {
+          "questionNo": 4,
+          "type": "trueFalse",
+          "question": "Alt sorgular sadece SELECT deyiminde kullanılabilir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 5,
+          "type": "multipleChoice",
+          "question": "SELECT * FROM Ogrenciler WHERE ogrenciID IN (SELECT ogrenciID FROM Notlar WHERE Notu < 50); ne yapar?",
+          "options": [
+            "Başarılı öğrencileri listeler",
+            "Tüm öğrencileri listeler",
+            "Sınıfta kalan öğrencileri listeler",
+            "Ortalama notu hesaplar"
+          ],
+          "answer": [
+            "Sınıfta kalan öğrencileri listeler"
+          ]
+        },
+        {
+          "questionNo": 6,
+          "type": "trueFalse",
+          "question": "WHERE EXISTS ve WHERE IN her zaman aynı sonucu verir.",
+          "answer": [
+            "False"
+          ]
+        },
+        {
+          "questionNo": 7,
+          "type": "multipleChoice",
+          "question": "SELECT UrunAdi, CASE WHEN Stok = 0 THEN 'TÜKENDİ' ELSE 'MEVCUT' END AS _____ FROM Urunler;",
+          "options": [
+            "Durum",
+            "Fiyat",
+            "Kategori",
+            "UrunKod"
+          ],
+          "answer": [
+            "Durum"
+          ]
+        },
+        {
+          "questionNo": 8,
+          "type": "multipleChoice",
+          "question": "En çok sipariş verilen 3 ürünü almak için hangi ifadeyi kullanırsın?",
+          "options": [
+            "SELECT * FROM Siparisler LIMIT 3;",
+            "SELECT UrunID, COUNT(*) FROM Siparisler GROUP BY UrunID ORDER BY COUNT(*) DESC LIMIT 3;",
+            "SELECT * FROM Urunler WHERE Stok > 0;",
+            "SELECT MAX(Fiyat) FROM Urunler;"
+          ],
+          "answer": [
+            "SELECT UrunID, COUNT(*) FROM Siparisler GROUP BY UrunID ORDER BY COUNT(*) DESC LIMIT 3;"
+          ]
+        },
+        {
+          "questionNo": 9,
+          "type": "orderWords",
+          "orderWords": [
+            "SELECT Ad",
+            "FROM Musteriler",
+            "WHERE MusteriID IN",
+            "(SELECT MusteriID FROM Siparisler WHERE Adet >= 5)"
+          ],
+          "answer": [
+            "SELECT Ad",
+            "FROM Musteriler",
+            "WHERE MusteriID IN",
+            "(SELECT MusteriID FROM Siparisler WHERE Adet >= 5)"
+          ]
+        },
+        {
+          "questionNo": 10,
+          "type": "trueFalse",
+          "question": "GROUP BY ile ORDER BY birlikte kullanılabilir.",
+          "answer": [
+            "True"
+          ]
+        }
+      ]
+    }
+  ]
+}
